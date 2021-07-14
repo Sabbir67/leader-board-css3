@@ -125,3 +125,31 @@ hr{
      border-radius: 20px;
      padding:4px;
  }
+
+
+
+ /* mobile Device  */
+
+ @media only screen and (max-width: 688px){
+    .container{
+        width: 100%;
+    }
+    .players{
+        
+        grid-template-columns:repeat(1,1fr) ;
+        
+    }
+    .player{
+        flex-direction: column;
+    }
+    .blogs, .courses{
+        grid-template-columns:repeat(1,1fr) ;
+        
+    }
+    .blog,.course{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+ }
